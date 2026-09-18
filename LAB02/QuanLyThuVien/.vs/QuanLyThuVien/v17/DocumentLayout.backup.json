@@ -1,12 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\PTPMHDT\\LAB02\\QuanLyThuVien\\",
-  "Documents": [],
+  "WorkspaceRootPath": "F:\\PTPMHDT\\LAB_OOSD\\LAB02\\QuanLyThuVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1321B09A-C06D-4865-8D29-5FADF52BAD5B}|QuanLyThuVien\\QuanLyThuVien.csproj|f:\\ptpmhdt\\lab_oosd\\lab02\\quanlythuvien\\quanlythuvien\\forms\\frmsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1321B09A-C06D-4865-8D29-5FADF52BAD5B}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\forms\\frmsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1321B09A-C06D-4865-8D29-5FADF52BAD5B}|QuanLyThuVien\\QuanLyThuVien.csproj|f:\\ptpmhdt\\lab_oosd\\lab02\\quanlythuvien\\quanlythuvien\\forms\\frmsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1321B09A-C06D-4865-8D29-5FADF52BAD5B}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\forms\\frmsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1321B09A-C06D-4865-8D29-5FADF52BAD5B}|QuanLyThuVien\\QuanLyThuVien.csproj|f:\\ptpmhdt\\lab_oosd\\lab02\\quanlythuvien\\quanlythuvien\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1321B09A-C06D-4865-8D29-5FADF52BAD5B}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmSach.cs",
+              "DocumentMoniker": "F:\\PTPMHDT\\LAB_OOSD\\LAB02\\QuanLyThuVien\\QuanLyThuVien\\Forms\\FrmSach.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Forms\\FrmSach.cs",
+              "ToolTip": "F:\\PTPMHDT\\LAB_OOSD\\LAB02\\QuanLyThuVien\\QuanLyThuVien\\Forms\\FrmSach.cs",
+              "RelativeToolTip": "QuanLyThuVien\\Forms\\FrmSach.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAawIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T17:11:48.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmSach.cs [Design]",
+              "DocumentMoniker": "F:\\PTPMHDT\\LAB_OOSD\\LAB02\\QuanLyThuVien\\QuanLyThuVien\\Forms\\FrmSach.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Forms\\FrmSach.cs",
+              "ToolTip": "F:\\PTPMHDT\\LAB_OOSD\\LAB02\\QuanLyThuVien\\QuanLyThuVien\\Forms\\FrmSach.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\Forms\\FrmSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T17:02:36.737Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "F:\\PTPMHDT\\LAB_OOSD\\LAB02\\QuanLyThuVien\\QuanLyThuVien\\Forms\\FrmMain.cs",
+              "RelativeDocumentMoniker": "QuanLyThuVien\\Forms\\FrmMain.cs",
+              "ToolTip": "F:\\PTPMHDT\\LAB_OOSD\\LAB02\\QuanLyThuVien\\QuanLyThuVien\\Forms\\FrmMain.cs [Design]",
+              "RelativeToolTip": "QuanLyThuVien\\Forms\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T17:02:12.106Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
