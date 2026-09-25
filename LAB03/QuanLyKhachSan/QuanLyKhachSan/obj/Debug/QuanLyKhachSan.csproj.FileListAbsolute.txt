@@ -1,0 +1,13 @@
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmDanhMuc.resources
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmMain.resources
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe.config
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmPhongTienNghi.resources
