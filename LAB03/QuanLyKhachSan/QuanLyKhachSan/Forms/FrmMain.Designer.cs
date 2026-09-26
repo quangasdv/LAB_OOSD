@@ -68,6 +68,7 @@
             this.btnDatPhong.TabIndex = 2;
             this.btnDatPhong.Text = "Đặt / Nhận phòng";
             this.btnDatPhong.UseVisualStyleBackColor = true;
+            this.btnDatPhong.Click += new System.EventHandler(this.btnDatPhong_Click);
             // 
             // btnPhong
             // 
@@ -89,6 +90,7 @@
             this.btnTraPhong.TabIndex = 6;
             this.btnTraPhong.Text = "Trả phòng - Thanh toán";
             this.btnTraPhong.UseVisualStyleBackColor = true;
+            this.btnTraPhong.Click += new System.EventHandler(this.btnTraPhong_Click);
             // 
             // btnThongKe
             // 
@@ -99,6 +101,7 @@
             this.btnThongKe.TabIndex = 5;
             this.btnThongKe.Text = "Thống kê";
             this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // btnThoat
             // 
@@ -120,6 +123,7 @@
             this.btnDichVu.TabIndex = 8;
             this.btnDichVu.Text = "Sử dụng dịch vụ";
             this.btnDichVu.UseVisualStyleBackColor = true;
+            this.btnDichVu.Click += new System.EventHandler(this.btnDichVu_Click);
             // 
             // FrmMain
             // 

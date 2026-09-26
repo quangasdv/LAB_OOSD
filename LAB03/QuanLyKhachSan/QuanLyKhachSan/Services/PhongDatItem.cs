@@ -1,0 +1,7 @@
+﻿
+public class PhongDatItem
+{
+    public string SoPhong { get; set; }
+    public int SoNguoi { get; set; }
+    public decimal DonGiaNgay { get; set; }
+}

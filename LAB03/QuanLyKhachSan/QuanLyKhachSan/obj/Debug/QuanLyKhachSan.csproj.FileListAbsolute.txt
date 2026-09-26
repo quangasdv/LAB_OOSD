@@ -11,3 +11,6 @@ F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan
 F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
 F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe.config
 F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmPhongTienNghi.resources
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmDatPhong.resources
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmDichVu.resources
+F:\PTPMHDT\LAB_OOSD\LAB03\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmTraPhong.resources
