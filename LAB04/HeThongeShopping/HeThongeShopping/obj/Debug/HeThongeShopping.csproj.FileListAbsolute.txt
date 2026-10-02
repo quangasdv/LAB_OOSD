@@ -1,0 +1,11 @@
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.csproj.AssemblyReference.cache
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.Properties.Resources.resources
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.csproj.GenerateResource.cache
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.csproj.CoreCompileInputs.cache
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\bin\Debug\HeThongeShopping.exe.config
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\bin\Debug\HeThongeShopping.exe
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\bin\Debug\HeThongeShopping.pdb
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.exe
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.pdb
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.exe.config
+F:\PTPMHDT\LAB_OOSD\LAB04\HeThongeShopping\HeThongeShopping\obj\Debug\HeThongeShopping.Forms.FrmMain.resources

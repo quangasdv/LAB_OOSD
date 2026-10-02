@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|f:\\ptpmhdt\\lab_oosd\\lab04\\hethongeshopping\\hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|f:\\ptpmhdt\\lab_oosd\\lab04\\hethongeshopping\\hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|f:\\ptpmhdt\\lab_oosd\\lab04\\hethongeshopping\\hethongeshopping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|f:\\ptpmhdt\\lab_oosd\\lab04\\hethongeshopping\\hethongeshopping\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\Forms\\FrmMain.cs",
+              "RelativeDocumentMoniker": "HeThongeShopping\\Forms\\FrmMain.cs",
+              "ToolTip": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\Forms\\FrmMain.cs",
+              "RelativeToolTip": "HeThongeShopping\\Forms\\FrmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T17:35:21.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\Forms\\FrmMain.cs",
+              "RelativeDocumentMoniker": "HeThongeShopping\\Forms\\FrmMain.cs",
+              "ToolTip": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\Forms\\FrmMain.cs [Design]",
+              "RelativeToolTip": "HeThongeShopping\\Forms\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T18:14:41.852Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\Program.cs",
+              "RelativeDocumentMoniker": "HeThongeShopping\\Program.cs",
+              "ToolTip": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\Program.cs",
+              "RelativeToolTip": "HeThongeShopping\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T17:30:05.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\App.config",
+              "RelativeDocumentMoniker": "HeThongeShopping\\App.config",
+              "ToolTip": "F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\HeThongeShopping\\App.config",
+              "RelativeToolTip": "HeThongeShopping\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-10-02T16:43:51.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
