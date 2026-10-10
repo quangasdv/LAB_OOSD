@@ -1,0 +1,10 @@
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\bin\Debug\QuanLyDuLich.exe.config
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\bin\Debug\QuanLyDuLich.exe
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\bin\Debug\QuanLyDuLich.pdb
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.csprojResolveAssemblyReference.cache
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.exe
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.pdb
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmMain.resources
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.csproj.GenerateResource.Cache
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmDangKyTourDoan.resources
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmTour.resources
