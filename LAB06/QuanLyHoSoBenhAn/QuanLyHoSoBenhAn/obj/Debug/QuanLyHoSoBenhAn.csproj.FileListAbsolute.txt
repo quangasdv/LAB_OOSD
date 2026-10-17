@@ -1,0 +1,12 @@
+F:\PTPMHDT\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe.config
+F:\PTPMHDT\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe
+F:\PTPMHDT\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.pdb
+F:\PTPMHDT\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csprojResolveAssemblyReference.cache
+F:\PTPMHDT\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.exe
+F:\PTPMHDT\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.pdb
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe.config
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.pdb
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.exe
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.pdb
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csprojResolveAssemblyReference.cache
