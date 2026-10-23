@@ -62,6 +62,38 @@ Thư mục `LAB_OOSD` lưu trữ toàn bộ các bài thực hành thuộc học
   - `QuanLyDuLich.sql`: Kịch bản tạo cơ sở dữ liệu gồm 10 bảng quan hệ và nạp dữ liệu mẫu ban đầu.
   - `class lab05.drawio`, `class_lab05.png`, `baocaolab05.docx`: Sơ đồ lớp chi tiết và báo cáo thực hành.
 
+### LAB06: Hệ thống Quản lý Hồ sơ Bệnh án (QuanLyHoSoBenhAn)
+- **Nội dung thực hiện**:
+  - Nghiệp vụ: Tiếp nhận bệnh nhân, lập hồ sơ khám chữa bệnh, theo dõi thời hạn lệ phí năm, chỉ định cận lâm sàng (xét nghiệm, chẩn đoán hình ảnh) và kê toa thuốc có cảnh báo tương tác dị ứng thuốc.
+  - Kỹ thuật: Xây dựng WinForms chuẩn mực, kiểm tra hợp lệ thông tin hành chính, xử lý luồng tiếp nhận bệnh nhân khám bệnh theo quy trình bệnh viện.
+- **Thành phần dự án**:
+  - `QuanLyHoSoBenhAn.sln`, `QuanLyHoSoBenhAn/`: Mã nguồn ứng dụng WinForms (.NET Framework 4.7.2).
+  - `QuanLyHoSoBenhAn_Database.sql`: Kịch bản cơ sở dữ liệu quan hệ quản lý hồ sơ bệnh án.
+  - `so do.drawio`, `Bai_5_Quan_ly_ho_so_benh_an.docx`: Sơ đồ thiết kế và tài liệu báo cáo thực hành.
+
+### LAB07: Hệ thống Quản lý Nhân sự - Công ty Cổ phần Sơn Đông Á (QuanLyNhanSu)
+- **Nội dung thực hiện**:
+  - Nghiệp vụ trọng tâm: Quản trị toàn diện vòng đời nhân sự của doanh nghiệp sản xuất và phân phối sơn:
+    - **Hồ sơ & Hợp đồng**: Quản lý thông tin nhân viên theo phòng ban/chức vụ; quản lý hợp đồng lao động (ngắn hạn / dài hạn), tự động liên kết hồ sơ trích nộp BHXH, BHYT, BHTN.
+    - **Phụ cấp Xưởng sơn độc hại**: Quản lý phụ cấp độc hại (1.500.000 VNĐ/tháng) tự động áp dụng riêng cho các vị trí trực tiếp tiếp xúc hóa chất sản xuất (Pha màu, Phun sơn, Hóa nghiệm, Kho hóa chất).
+    - **Chấm công & Phụ trội**: Theo dõi ngày công thực tế (22 công chuẩn/tháng), quản lý phiếu làm thêm giờ theo hệ số luật định: Ngày thường (150%), Ngày nghỉ cuối tuần (200%), Lễ/Tết (300%).
+    - **Tính lương tự động**: Stored Procedure `sp_TinhLuongToanCongTy` tự động tổng hợp: Lương công chuẩn, Phụ cấp chức vụ, Phụ cấp độc hại xưởng sơn, Tiền phụ trội, Thưởng/Phạt, Trích nộp bảo hiểm bắt buộc (10.5%) và Thực lĩnh.
+    - **Khen thưởng & Kỷ luật**: Quản lý quyết định khen thưởng, xử lý vi phạm kỷ luật, tự động phát hành số phiếu thu/chi tiền mặt và kết chuyển vào bảng thanh toán lương.
+  - Giao diện & Kỹ thuật:
+    - Thiết kế giao diện WinForms cổ điển, đơn giản, trực quan bám sát phong cách chuẩn mực của các bài thực hành trước.
+    - Tầng truy xuất dữ liệu ADO.NET tối ưu (`Db.cs`) với cơ chế dò tìm máy chủ SQL tự động, đảm bảo an toàn truy vấn với `SqlParameter`.
+- **Thành phần dự án**:
+  - `QuanLyNhanSu.sln`, `QuanLyNhanSu/`: Mã nguồn dự án C# WinForms (.NET Framework 4.7.2).
+    - `Forms/FrmMain.cs`: Màn hình điều hướng chính hệ thống.
+    - `Forms/FrmNhanVien.cs`: Màn hình quản lý hồ sơ nhân viên, hợp đồng và phụ cấp độc hại.
+    - `Forms/FrmChamCongPhuTroi.cs`: Màn hình quản lý chấm công tháng và phiếu làm thêm giờ.
+    - `Forms/FrmBangLuong.cs`: Màn hình tính lương tự động toàn công ty và chi tiết phiếu lương cá nhân.
+    - `Forms/FrmKhenThuongKyLuat.cs`: Màn hình quản lý quyết định khen thưởng, kỷ luật và phiếu thu/chi.
+    - `Data/Db.cs`: Lớp tiện ích kết nối và truy xuất cơ sở dữ liệu.
+    - `Models.cs`: Định nghĩa các thực thể DTO tương ứng 16 lớp đối tượng trong hệ thống.
+  - `QuanLyNhanSuDB.sql`: Kịch bản tạo CSDL chuẩn 3NF gồm 16 bảng quan hệ, 2 Views, 2 Stored Procedures và dữ liệu mẫu thử nghiệm.
+  - `baocaolab07.docx`: Tài liệu báo cáo hoàn chỉnh gồm đặc tả yêu cầu, phân tích UML, thiết kế CSDL, giao diện và 5 kịch bản kiểm thử (Test Cases).
+
 ---
 
 ## 3. KIẾN TRÚC PHẦN MỀM VÀ NGUYÊN TẮC THIẾT KẾ
