@@ -1,0 +1,6 @@
+F:\PTPMHDT\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+F:\PTPMHDT\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+F:\PTPMHDT\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+F:\PTPMHDT\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+F:\PTPMHDT\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+F:\PTPMHDT\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
