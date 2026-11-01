@@ -6,11 +6,14 @@ namespace HeThongeShopping
     {
         public int MaKhachHang { get; set; }
         public string TenDangNhap { get; set; }
+        public string MatKhau { get; set; }
         public string HoTen { get; set; }
-        public DateTime NgaySinh { get; set; }
+        public DateTime? NgaySinh { get; set; }
+        public string SoCMND_Passport { get; set; }
         public string DiaChi { get; set; }
         public string DienThoai { get; set; }
         public string Email { get; set; }
+        public DateTime? NgayDangKy { get; set; }
     }
 
     public class DonHang
@@ -48,8 +51,29 @@ namespace HeThongeShopping
         public DateTime NgayThanhToan { get; set; }
         public string KetQuaThanhToan { get; set; }
     }
-    
-    // Result object similar to KetQuaXuLy in LAB02
+
+    public class SanPham
+    {
+        public string MaSanPham { get; set; }
+        public string TenSanPham { get; set; }
+        public string NhomSanPham { get; set; }
+        public decimal DonGia { get; set; }
+        public int TonKho { get; set; }
+        public string MoTa { get; set; }
+    }
+
+    public class CauHinhHeThong
+    {
+        public decimal PhiThuong { get; set; }
+        public decimal PhiCPN { get; set; }
+        public decimal PhiHoaToc { get; set; }
+        public decimal MienPhiThuong { get; set; }
+        public decimal MienPhiCPN { get; set; }
+        public decimal TiLePhiVisaMaster { get; set; }
+        public decimal TiLePhiAmexDiscover { get; set; }
+        public string EmailAdmin { get; set; }
+    }
+
     public class KetQuaXuLy
     {
         public bool ThanhCong { get; private set; }

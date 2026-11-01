@@ -8,3 +8,6 @@ F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms
 F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.csproj.GenerateResource.Cache
 F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmDangKyTourDoan.resources
 F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmTour.resources
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmDangKyTourChuyen.resources
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmPhanCongHDV.resources
+F:\PTPMHDT\LAB_OOSD\LAB05\QuanLyDuLich\QuanLyDuLich\obj\Debug\QuanLyDuLich.Forms.FrmThongKe.resources

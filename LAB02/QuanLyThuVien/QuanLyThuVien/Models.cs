@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace QuanLyThuVien
 {
@@ -11,7 +11,10 @@ namespace QuanLyThuVien
         public DateTime NgaySinh { get; set; }
         public string ChucVu { get; set; }
         public string SoDienThoai { get; set; }
-        public string HoTen => $"{Ho} {Ten}".Trim();
+        public string HoTen
+        {
+            get { return (Ho + " " + Ten).Trim(); }
+        }
     }
 
     public class TheLoai
@@ -48,7 +51,10 @@ namespace QuanLyThuVien
         public string DiaChi { get; set; }
         public string Email { get; set; }
         public string Anh3x4 { get; set; }
-        public string HoTen => $"{Ho} {Ten}".Trim();
+        public string HoTen
+        {
+            get { return (Ho + " " + Ten).Trim(); }
+        }
     }
 
     public class TheDocGia
@@ -81,8 +87,15 @@ namespace QuanLyThuVien
             ThongBao = thongBao;
         }
 
-        public static KetQuaXuLy Ok(string thongBao) => new KetQuaXuLy(true, thongBao);
-        public static KetQuaXuLy Loi(string thongBao) => new KetQuaXuLy(false, thongBao);
+        public static KetQuaXuLy Ok(string thongBao)
+        {
+            return new KetQuaXuLy(true, thongBao);
+        }
+
+        public static KetQuaXuLy Loi(string thongBao)
+        {
+            return new KetQuaXuLy(false, thongBao);
+        }
     }
 
     public class ThongKeTongHop

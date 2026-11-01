@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 using System.Windows.Forms;
 
 namespace QuanLyThuVien.Forms
@@ -19,15 +12,13 @@ namespace QuanLyThuVien.Forms
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-
         }
 
-        private void btnThoat_Click(object sender, EventArgs e)
+        private void btnDanhMuc_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Xác nhận thoát chương trình?", "Xác nhận",
-    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            using (FrmDanhMuc f = new FrmDanhMuc())
             {
-                Close();
+                f.ShowDialog(this);
             }
         }
 
@@ -36,6 +27,39 @@ namespace QuanLyThuVien.Forms
             using (FrmSach f = new FrmSach())
             {
                 f.ShowDialog(this);
+            }
+        }
+
+        private void btnDocGia_Click(object sender, EventArgs e)
+        {
+            using (FrmDocGia f = new FrmDocGia())
+            {
+                f.ShowDialog(this);
+            }
+        }
+
+        private void btnMuonTra_Click(object sender, EventArgs e)
+        {
+            using (FrmMuonTra f = new FrmMuonTra())
+            {
+                f.ShowDialog(this);
+            }
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            using (FrmThongKe f = new FrmThongKe())
+            {
+                f.ShowDialog(this);
+            }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có thực sự muốn thoát chương trình?", "Xác nhận",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Close();
             }
         }
     }

@@ -99,6 +99,7 @@
     <Compile Include="Services\PhongDatItem.cs" />
     <Compile Include="Services\PhongTienNghiService.cs" />
     <Compile Include="Services\TraPhongService.cs" />
+    <Compile Include="Services\ThongKeService.cs" />
     <EmbeddedResource Include="Forms\FrmDanhMuc.resx">
       <DependentUpon>FrmDanhMuc.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmTraPhong.resx">
       <DependentUpon>FrmTraPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmThongKe.resx">
+      <DependentUpon>FrmThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

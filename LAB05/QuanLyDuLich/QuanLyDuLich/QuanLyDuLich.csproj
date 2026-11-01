@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Db.cs" />
+    <Compile Include="Forms\FrmDangKyTourChuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmDangKyTourChuyen.Designer.cs">
+      <DependentUpon>FrmDangKyTourChuyen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmDangKyTourDoan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,18 @@
     <Compile Include="Forms\FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmPhanCongHDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPhanCongHDV.Designer.cs">
+      <DependentUpon>FrmPhanCongHDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmThongKe.Designer.cs">
+      <DependentUpon>FrmThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmTour.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,15 +87,27 @@
     <Compile Include="Models.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ChuyenService.cs" />
     <Compile Include="Services\DangKyTourService.cs" />
+    <Compile Include="Services\HDVService.cs" />
+    <Compile Include="Services\ThongKeService.cs" />
     <Compile Include="Services\TourService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Forms\FrmDangKyTourChuyen.resx">
+      <DependentUpon>FrmDangKyTourChuyen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmDangKyTourDoan.resx">
       <DependentUpon>FrmDangKyTourDoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmPhanCongHDV.resx">
+      <DependentUpon>FrmPhanCongHDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmThongKe.resx">
+      <DependentUpon>FrmThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmTour.resx">
       <DependentUpon>FrmTour.cs</DependentUpon>

@@ -44,7 +44,8 @@ namespace QuanLyKhachSan.Forms
 
         private void cboLuot_SelectedIndexChanged(object a, EventArgs e)
         {
-            if (cboLuot.SelectedItem is System.Data.DataRowView r)
+            var r = cboLuot.SelectedItem as System.Data.DataRowView;
+            if (r != null)
                 txtPhong.Text = Convert.ToString(r["SoPhong"]);
             Tai();
         }

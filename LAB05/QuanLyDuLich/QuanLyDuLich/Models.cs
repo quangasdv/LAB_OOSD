@@ -68,4 +68,70 @@ namespace QuanLyDuLich
         public bool CoMuaBaoHiem { get; set; }
         public string TrangThai { get; set; }
     }
+
+    // Entity cho chuyến du lịch cố định của công ty
+    public class ChuyenDuLich
+    {
+        public string MaChuyen { get; set; }
+        public string MaTour { get; set; }
+        public string TenTour { get; set; }
+        public DateTime NgayDi { get; set; }
+        public DateTime NgayVe { get; set; }
+        public int SoVeToiDa { get; set; }
+        public int SoVeDaBan { get; set; }
+        public int SoVeConLai { get; set; }
+        public decimal DonGia { get; set; }
+        public string TrangThai { get; set; }
+    }
+
+    // Entity cho khách hàng lẻ
+    public class KhachLe
+    {
+        public string MaKhachLe { get; set; }
+        public string HoTen { get; set; }
+        public string SoCMND { get; set; }
+        public string DienThoai { get; set; }
+        public string DiaChi { get; set; }
+    }
+
+    // Entity cho phiếu đăng ký theo chuyến của khách lẻ (< 12 vé)
+    public class PhieuDangKyChuyenModel
+    {
+        public string SoPhieuChuyen { get; set; }
+        public string MaChuyen { get; set; }
+        public string TenTour { get; set; }
+        public string MaKhachLe { get; set; }
+        public string HoTenKhach { get; set; }
+        public string SoCMND { get; set; }
+        public string DienThoai { get; set; }
+        public DateTime NgayDangKy { get; set; }
+        public int SoLuongVe { get; set; }
+        public string DiemDonQuyDinh { get; set; }
+        public decimal TongTien { get; set; }
+        public string TrangThai { get; set; }
+    }
+
+    // Entity cho nhân viên hướng dẫn viên
+    public class NhanVienHDV
+    {
+        public string MaNV { get; set; }
+        public string HoTen { get; set; }
+        public string DienThoai { get; set; }
+        public decimal LuongCoBan { get; set; }
+        public decimal ThuLaoMoiTour { get; set; }
+    }
+
+    // Entity phân công hướng dẫn viên
+    public class PhanCongHDVModel
+    {
+        public string MaPhanCong { get; set; }
+        public string MaNV { get; set; }
+        public string HoTenNV { get; set; }
+        public string DienThoaiNV { get; set; }
+        public string LoaiPhanCong { get; set; } // "Theo Chuyến lẻ" hoặc "Theo Đoàn"
+        public string MaMucTieu { get; set; }
+        public string TenMucTieu { get; set; }
+        public DateTime NgayBatDau { get; set; }
+        public DateTime NgayKetThuc { get; set; }
+    }
 }

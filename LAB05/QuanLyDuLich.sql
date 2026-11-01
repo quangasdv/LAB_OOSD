@@ -219,3 +219,26 @@ INSERT INTO ThanhVienBaoHiem(SoPhieuDK, HoTen, NgaySinh, CCCD) VALUES
 INSERT INTO BienNhanThuCoc(MaBienNhan, SoPhieuDK, NgayThu, SoTienCoc, HinhThuc, CamKetMatCoc) VALUES
 ('BN20261010001', 'PDK20261010001', GETDATE(), 12600000, N'Chuyển khoản Vietcombank', 1);
 GO
+
+-- 11. Dữ liệu mẫu Chuyến du lịch cố định (Khách lẻ)
+INSERT INTO ChuyenDuLich(MaChuyen, MaTour, NgayDi, NgayVe, SoVeToiDa, SoVeDaBan, TrangThai) VALUES
+('CHY_NT01', 'TOUR_NT', '2026-11-10', '2026-11-13', 40, 5, N'Đang mở bán'),
+('CHY_DL01', 'TOUR_DL', '2026-11-15', '2026-11-19', 35, 3, N'Đang mở bán'),
+('CHY_PQ01', 'TOUR_PQ', '2026-11-20', '2026-11-23', 30, 0, N'Đang mở bán');
+
+-- 12. Dữ liệu mẫu Khách lẻ & Phiếu đăng ký vé chuyến
+INSERT INTO KhachLe(MaKhachLe, HoTen, SoCMND, DienThoai, DiaChi) VALUES
+('KL01', N'Nguyễn Hải Nam', '079093001122', '0918112233', N'Quận 7, TP.HCM'),
+('KL02', N'Võ Thị Thanh Thảo', '079095003344', '0938445566', N'Bình Thạnh, TP.HCM');
+
+INSERT INTO PhieuDangKyChuyen(SoPhieuChuyen, MaChuyen, MaKhachLe, NgayDangKy, SoLuongVe, DiemDonQuyDinh, TongTien, TrangThai) VALUES
+('PDC20261015001', 'CHY_NT01', 'KL01', GETDATE(), 3, N'Điểm 1: Trụ sở Công ty Du lịch Văn Hóa Việt (123 Lê Lợi, Q.1)', 8400000, N'Đã thanh toán'),
+('PDC20261016002', 'CHY_NT01', 'KL02', GETDATE(), 2, N'Điểm 3: Vòng xoay Hàng Xanh (Bình Thạnh)', 5600000, N'Đã thanh toán'),
+('PDC20261017003', 'CHY_DL01', 'KL01', GETDATE(), 3, N'Điểm 4: Bến xe Miền Đông mới (TP. Thủ Đức)', 9600000, N'Đã thanh toán');
+
+-- 13. Dữ liệu mẫu Phân công Hướng dẫn viên
+INSERT INTO PhanCongHDV(MaPhanCong, MaNV, SoPhieuDK, MaChuyen, NgayBatDau, NgayKetThuc) VALUES
+('PC20261010001', 'HDV01', 'PDK20261010001', NULL, '2026-10-25', '2026-10-27'),
+('PC20261101001', 'HDV02', NULL, 'CHY_NT01', '2026-11-10', '2026-11-13'),
+('PC20261101002', 'HDV03', NULL, 'CHY_DL01', '2026-11-15', '2026-11-19');
+GO

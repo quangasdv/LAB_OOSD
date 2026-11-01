@@ -9,4 +9,5 @@ F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSo
 F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.pdb
 F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.exe
 F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.pdb
-F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csprojResolveAssemblyReference.cache
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csproj.AssemblyReference.cache
+F:\PTPMHDT\LAB_OOSD\LAB06\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csproj.CoreCompileInputs.cache

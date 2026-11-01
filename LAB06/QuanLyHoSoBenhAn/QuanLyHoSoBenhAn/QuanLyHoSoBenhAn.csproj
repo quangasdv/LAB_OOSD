@@ -60,6 +60,54 @@
     <Compile Include="Forms\FrmTiepNhanBenhNhan.Designer.cs">
       <DependentUpon>FrmTiepNhanBenhNhan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmLePhiNam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLePhiNam.Designer.cs">
+      <DependentUpon>FrmLePhiNam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmHoSoBenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmHoSoBenhAn.Designer.cs">
+      <DependentUpon>FrmHoSoBenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmKhamBenh.Designer.cs">
+      <DependentUpon>FrmKhamBenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmChiDinhXN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmChiDinhXN.Designer.cs">
+      <DependentUpon>FrmChiDinhXN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmKeToaThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmKeToaThuoc.Designer.cs">
+      <DependentUpon>FrmKeToaThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLichHen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLichHen.Designer.cs">
+      <DependentUpon>FrmLichHen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmHoanTatDieuTri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmHoanTatDieuTri.Designer.cs">
+      <DependentUpon>FrmHoanTatDieuTri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmDanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmDanhMuc.Designer.cs">
+      <DependentUpon>FrmDanhMuc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

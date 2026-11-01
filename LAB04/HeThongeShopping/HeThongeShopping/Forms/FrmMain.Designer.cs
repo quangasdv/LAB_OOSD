@@ -45,6 +45,7 @@ namespace HeThongeShopping.Forms
             this.btnDangNhap.TabIndex = 3;
             this.btnDangNhap.Text = "Đăng nhập / Đăng ký";
             this.btnDangNhap.UseVisualStyleBackColor = true;
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // btnMuaSam
             // 
@@ -55,6 +56,7 @@ namespace HeThongeShopping.Forms
             this.btnMuaSam.TabIndex = 4;
             this.btnMuaSam.Text = "Duyệt SP & Giỏ hàng";
             this.btnMuaSam.UseVisualStyleBackColor = true;
+            this.btnMuaSam.Click += new System.EventHandler(this.btnMuaSam_Click);
             // 
             // btnDatHang
             // 
@@ -76,6 +78,7 @@ namespace HeThongeShopping.Forms
             this.btnQuanLyDonHang.TabIndex = 5;
             this.btnQuanLyDonHang.Text = "Quản lý Đơn hàng";
             this.btnQuanLyDonHang.UseVisualStyleBackColor = true;
+            this.btnQuanLyDonHang.Click += new System.EventHandler(this.btnQuanLyDonHang_Click);
             // 
             // btnQuanLyTaiKhoan
             // 
@@ -86,6 +89,7 @@ namespace HeThongeShopping.Forms
             this.btnQuanLyTaiKhoan.TabIndex = 6;
             this.btnQuanLyTaiKhoan.Text = "Quản lý Tài khoản";
             this.btnQuanLyTaiKhoan.UseVisualStyleBackColor = true;
+            this.btnQuanLyTaiKhoan.Click += new System.EventHandler(this.btnQuanLyTaiKhoan_Click);
             // 
             // btnCauHinh
             // 
@@ -96,6 +100,7 @@ namespace HeThongeShopping.Forms
             this.btnCauHinh.TabIndex = 7;
             this.btnCauHinh.Text = "Cấu hình Hệ thống";
             this.btnCauHinh.UseVisualStyleBackColor = true;
+            this.btnCauHinh.Click += new System.EventHandler(this.btnCauHinh_Click);
             // 
             // btnThongKe
             // 
@@ -106,6 +111,7 @@ namespace HeThongeShopping.Forms
             this.btnThongKe.TabIndex = 8;
             this.btnThongKe.Text = "Báo cáo Thống kê";
             this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // btnThoat
             // 

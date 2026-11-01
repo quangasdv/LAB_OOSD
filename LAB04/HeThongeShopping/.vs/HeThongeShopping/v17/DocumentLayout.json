@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|f:\\ptpmhdt\\lab_oosd\\lab04\\hethongeshopping\\hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|f:\\ptpmhdt\\lab_oosd\\lab04\\hethongeshopping\\hethongeshopping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\hethongeshopping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|f:\\ptpmhdt\\lab_oosd\\lab04\\hethongeshopping\\hethongeshopping\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|F:\\PTPMHDT\\LAB_OOSD\\LAB04\\HeThongeShopping\\hethongeshopping\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{1E14C0A6-4278-4E56-968A-09FF9C3BBF47}|HeThongeShopping\\HeThongeShopping.csproj|solutionrelative:hethongeshopping\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -26,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -67,8 +63,7 @@
               "RelativeToolTip": "HeThongeShopping\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAWwBIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T17:30:05.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T17:30:05.493Z"
             },
             {
               "$type": "Document",

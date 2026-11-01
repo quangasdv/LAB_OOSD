@@ -19,7 +19,10 @@ namespace QuanLyDuLich.Forms
             this.lblSubTitle = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnDangKyDoan = new System.Windows.Forms.Button();
+            this.btnDangKyChuyen = new System.Windows.Forms.Button();
             this.btnQuanLyTour = new System.Windows.Forms.Button();
+            this.btnPhanCongHDV = new System.Windows.Forms.Button();
+            this.btnThongKe = new System.Windows.Forms.Button();
             this.btnThongTin = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -37,7 +40,7 @@ namespace QuanLyDuLich.Forms
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(800, 105);
+            this.pnlTop.Size = new System.Drawing.Size(840, 105);
             this.pnlTop.TabIndex = 0;
             // 
             // lblSubTitle
@@ -45,7 +48,7 @@ namespace QuanLyDuLich.Forms
             this.lblSubTitle.AutoSize = true;
             this.lblSubTitle.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblSubTitle.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.lblSubTitle.Location = new System.Drawing.Point(170, 60);
+            this.lblSubTitle.Location = new System.Drawing.Point(190, 60);
             this.lblSubTitle.Name = "lblSubTitle";
             this.lblSubTitle.Size = new System.Drawing.Size(465, 23);
             this.lblSubTitle.TabIndex = 1;
@@ -56,7 +59,7 @@ namespace QuanLyDuLich.Forms
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(120, 18);
+            this.lblTitle.Location = new System.Drawing.Point(140, 18);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(564, 37);
             this.lblTitle.TabIndex = 0;
@@ -68,15 +71,31 @@ namespace QuanLyDuLich.Forms
             this.btnDangKyDoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDangKyDoan.FlatAppearance.BorderSize = 0;
             this.btnDangKyDoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDangKyDoan.Font = new System.Drawing.Font("Segoe UI", 12.5F, System.Drawing.FontStyle.Bold);
+            this.btnDangKyDoan.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnDangKyDoan.ForeColor = System.Drawing.Color.White;
-            this.btnDangKyDoan.Location = new System.Drawing.Point(170, 130);
+            this.btnDangKyDoan.Location = new System.Drawing.Point(80, 130);
             this.btnDangKyDoan.Name = "btnDangKyDoan";
-            this.btnDangKyDoan.Size = new System.Drawing.Size(460, 68);
+            this.btnDangKyDoan.Size = new System.Drawing.Size(325, 62);
             this.btnDangKyDoan.TabIndex = 1;
-            this.btnDangKyDoan.Text = "ĐĂNG KÝ TOUR THEO ĐOÀN";
+            this.btnDangKyDoan.Text = "ĐĂNG KÝ TOUR THEO ĐOÀN\r\n(Khách >= 12 người)";
             this.btnDangKyDoan.UseVisualStyleBackColor = false;
             this.btnDangKyDoan.Click += new System.EventHandler(this.btnDangKyDoan_Click);
+            // 
+            // btnDangKyChuyen
+            // 
+            this.btnDangKyChuyen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.btnDangKyChuyen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDangKyChuyen.FlatAppearance.BorderSize = 0;
+            this.btnDangKyChuyen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDangKyChuyen.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btnDangKyChuyen.ForeColor = System.Drawing.Color.White;
+            this.btnDangKyChuyen.Location = new System.Drawing.Point(435, 130);
+            this.btnDangKyChuyen.Name = "btnDangKyChuyen";
+            this.btnDangKyChuyen.Size = new System.Drawing.Size(325, 62);
+            this.btnDangKyChuyen.TabIndex = 2;
+            this.btnDangKyChuyen.Text = "ĐĂNG KÝ TOUR THEO CHUYẾN\r\n(Khách lẻ < 12 người)";
+            this.btnDangKyChuyen.UseVisualStyleBackColor = false;
+            this.btnDangKyChuyen.Click += new System.EventHandler(this.btnDangKyChuyen_Click);
             // 
             // btnQuanLyTour
             // 
@@ -84,15 +103,47 @@ namespace QuanLyDuLich.Forms
             this.btnQuanLyTour.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanLyTour.FlatAppearance.BorderSize = 0;
             this.btnQuanLyTour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuanLyTour.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btnQuanLyTour.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
             this.btnQuanLyTour.ForeColor = System.Drawing.Color.White;
-            this.btnQuanLyTour.Location = new System.Drawing.Point(170, 215);
+            this.btnQuanLyTour.Location = new System.Drawing.Point(80, 205);
             this.btnQuanLyTour.Name = "btnQuanLyTour";
-            this.btnQuanLyTour.Size = new System.Drawing.Size(460, 48);
-            this.btnQuanLyTour.TabIndex = 2;
+            this.btnQuanLyTour.Size = new System.Drawing.Size(325, 52);
+            this.btnQuanLyTour.TabIndex = 3;
             this.btnQuanLyTour.Text = "QUẢN LÝ DANH MỤC TOUR";
             this.btnQuanLyTour.UseVisualStyleBackColor = false;
             this.btnQuanLyTour.Click += new System.EventHandler(this.btnQuanLyTour_Click);
+            // 
+            // btnPhanCongHDV
+            // 
+            this.btnPhanCongHDV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(162)))), ((int)(((byte)(184)))));
+            this.btnPhanCongHDV.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPhanCongHDV.FlatAppearance.BorderSize = 0;
+            this.btnPhanCongHDV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPhanCongHDV.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
+            this.btnPhanCongHDV.ForeColor = System.Drawing.Color.White;
+            this.btnPhanCongHDV.Location = new System.Drawing.Point(435, 205);
+            this.btnPhanCongHDV.Name = "btnPhanCongHDV";
+            this.btnPhanCongHDV.Size = new System.Drawing.Size(325, 52);
+            this.btnPhanCongHDV.TabIndex = 4;
+            this.btnPhanCongHDV.Text = "PHÂN CÔNG HƯỚNG DẪN VIÊN";
+            this.btnPhanCongHDV.UseVisualStyleBackColor = false;
+            this.btnPhanCongHDV.Click += new System.EventHandler(this.btnPhanCongHDV_Click);
+            // 
+            // btnThongKe
+            // 
+            this.btnThongKe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(126)))), ((int)(((byte)(20)))));
+            this.btnThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThongKe.FlatAppearance.BorderSize = 0;
+            this.btnThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThongKe.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
+            this.btnThongKe.ForeColor = System.Drawing.Color.White;
+            this.btnThongKe.Location = new System.Drawing.Point(435, 270);
+            this.btnThongKe.Name = "btnThongKe";
+            this.btnThongKe.Size = new System.Drawing.Size(325, 46);
+            this.btnThongKe.TabIndex = 6;
+            this.btnThongKe.Text = "BÁO CÁO THỐNG KÊ DOANH THU";
+            this.btnThongKe.UseVisualStyleBackColor = false;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // btnThongTin
             // 
@@ -102,10 +153,10 @@ namespace QuanLyDuLich.Forms
             this.btnThongTin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThongTin.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnThongTin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
-            this.btnThongTin.Location = new System.Drawing.Point(170, 278);
+            this.btnThongTin.Location = new System.Drawing.Point(80, 270);
             this.btnThongTin.Name = "btnThongTin";
-            this.btnThongTin.Size = new System.Drawing.Size(460, 44);
-            this.btnThongTin.TabIndex = 3;
+            this.btnThongTin.Size = new System.Drawing.Size(325, 46);
+            this.btnThongTin.TabIndex = 5;
             this.btnThongTin.Text = "Chính sách & Quy định Tour";
             this.btnThongTin.UseVisualStyleBackColor = false;
             this.btnThongTin.Click += new System.EventHandler(this.btnThongTin_Click);
@@ -118,10 +169,10 @@ namespace QuanLyDuLich.Forms
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnThoat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnThoat.Location = new System.Drawing.Point(170, 335);
+            this.btnThoat.Location = new System.Drawing.Point(260, 335);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(460, 40);
-            this.btnThoat.TabIndex = 4;
+            this.btnThoat.Size = new System.Drawing.Size(320, 42);
+            this.btnThoat.TabIndex = 7;
             this.btnThoat.Text = "Thoát chương trình";
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -132,10 +183,10 @@ namespace QuanLyDuLich.Forms
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatus,
             this.lblDatabase});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 414);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 395);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 26);
-            this.statusStrip1.TabIndex = 5;
+            this.statusStrip1.Size = new System.Drawing.Size(840, 26);
+            this.statusStrip1.TabIndex = 8;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // lblStatus
@@ -157,11 +208,14 @@ namespace QuanLyDuLich.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(248)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(800, 440);
+            this.ClientSize = new System.Drawing.Size(840, 421);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnThongKe);
             this.Controls.Add(this.btnThongTin);
+            this.Controls.Add(this.btnPhanCongHDV);
             this.Controls.Add(this.btnQuanLyTour);
+            this.Controls.Add(this.btnDangKyChuyen);
             this.Controls.Add(this.btnDangKyDoan);
             this.Controls.Add(this.pnlTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -182,7 +236,10 @@ namespace QuanLyDuLich.Forms
         private System.Windows.Forms.Label lblSubTitle;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnDangKyDoan;
+        private System.Windows.Forms.Button btnDangKyChuyen;
         private System.Windows.Forms.Button btnQuanLyTour;
+        private System.Windows.Forms.Button btnPhanCongHDV;
+        private System.Windows.Forms.Button btnThongKe;
         private System.Windows.Forms.Button btnThongTin;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.StatusStrip statusStrip1;
